@@ -2,7 +2,7 @@
 <testng-results ignored="4" total="7" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-10T14:08:30 CST" name="Suite" finished-at="2022-11-10T14:09:40 CST" duration-ms="70119">
+  <suite started-at="2022-11-11T10:42:02 CST" name="Suite" finished-at="2022-11-11T10:43:02 CST" duration-ms="60522">
     <groups>
       <group name="Regression">
         <method signature="SearchResultPageTest.verifyopenitem()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" name="verifyopenitem" class="com.Amazon.Tests.SearchResultPageTest"/>
@@ -12,26 +12,26 @@
         <method signature="IndexPageTest.verifysearchitem()[pri:0, instance:com.Amazon.Tests.IndexPageTest@47eaca72]" name="verifysearchitem" class="com.Amazon.Tests.IndexPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-11-10T14:08:30 CST" name="Test" finished-at="2022-11-10T14:09:40 CST" duration-ms="70119">
+    <test started-at="2022-11-11T10:42:02 CST" name="Test" finished-at="2022-11-11T10:43:02 CST" duration-ms="60522">
       <class name="com.Amazon.Tests.AddToCartPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Tests.AddToCartPageTest@55141def]" started-at="2022-11-10T14:09:08 CST" name="setup" finished-at="2022-11-10T14:09:20 CST" duration-ms="11994" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Tests.AddToCartPageTest@55141def]" started-at="2022-11-11T10:42:40 CST" name="setup" finished-at="2022-11-11T10:42:49 CST" duration-ms="8448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyAddItemToCart()[pri:0, instance:com.Amazon.Tests.AddToCartPageTest@55141def]" started-at="2022-11-10T14:09:20 CST" name="VerifyAddItemToCart" finished-at="2022-11-10T14:09:40 CST" duration-ms="19107" status="FAIL">
+        <test-method signature="VerifyAddItemToCart()[pri:0, instance:com.Amazon.Tests.AddToCartPageTest@55141def]" started-at="2022-11-11T10:42:49 CST" name="VerifyAddItemToCart" finished-at="2022-11-11T10:43:02 CST" duration-ms="12955" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with text:  M 
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'HARIKA', ip: '172.20.1.224', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+System info: host: 'HARIKA', ip: '172.30.3.162', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
 Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text:  M 
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'HARIKA', ip: '172.20.1.224', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+System info: host: 'HARIKA', ip: '172.30.3.162', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
 Driver info: driver.version: unknown
 at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
 at com.Amazon.PageObjects.AddToCartPage.selectsize(AddToCartPage.java:47)
@@ -70,47 +70,47 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAddItemToCart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.Amazon.Tests.AddToCartPageTest@55141def]" started-at="2022-11-10T14:09:40 CST" name="close" finished-at="2022-11-10T14:09:40 CST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Amazon.Tests.AddToCartPageTest@55141def]" started-at="2022-11-11T10:43:02 CST" name="close" finished-at="2022-11-11T10:43:02 CST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.Amazon.Tests.AddToCartPageTest -->
-      <class name="com.Amazon.Tests.SearchResultPageTest">
-        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-10T14:08:30 CST" name="loadconfig" finished-at="2022-11-10T14:08:30 CST" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadconfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-10T14:08:30 CST" name="setup" finished-at="2022-11-10T14:08:42 CST" duration-ms="11713" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyopenitem()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-10T14:08:42 CST" name="verifyopenitem" finished-at="2022-11-10T14:08:57 CST" duration-ms="15621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyopenitem -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-10T14:08:57 CST" name="close" finished-at="2022-11-10T14:08:58 CST" duration-ms="181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-10T14:09:40 CST" name="afterSuite" finished-at="2022-11-10T14:09:41 CST" duration-ms="581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.Amazon.Tests.SearchResultPageTest -->
       <class name="com.Amazon.Tests.IndexPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Tests.IndexPageTest@47eaca72]" started-at="2022-11-10T14:08:58 CST" name="setup" finished-at="2022-11-10T14:09:04 CST" duration-ms="6704" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Tests.IndexPageTest@47eaca72]" started-at="2022-11-11T10:42:30 CST" name="setup" finished-at="2022-11-11T10:42:36 CST" duration-ms="6348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifysearchitem()[pri:0, instance:com.Amazon.Tests.IndexPageTest@47eaca72]" started-at="2022-11-10T14:09:04 CST" name="verifysearchitem" finished-at="2022-11-10T14:09:08 CST" duration-ms="3759" status="PASS">
+        <test-method signature="verifysearchitem()[pri:0, instance:com.Amazon.Tests.IndexPageTest@47eaca72]" started-at="2022-11-11T10:42:36 CST" name="verifysearchitem" finished-at="2022-11-11T10:42:40 CST" duration-ms="3710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifysearchitem -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.Amazon.Tests.IndexPageTest@47eaca72]" started-at="2022-11-10T14:09:08 CST" name="close" finished-at="2022-11-10T14:09:08 CST" duration-ms="294" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Amazon.Tests.IndexPageTest@47eaca72]" started-at="2022-11-11T10:42:40 CST" name="close" finished-at="2022-11-11T10:42:40 CST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.Amazon.Tests.IndexPageTest -->
+      <class name="com.Amazon.Tests.SearchResultPageTest">
+        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-11T10:42:01 CST" name="loadconfig" finished-at="2022-11-11T10:42:02 CST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadconfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-11T10:42:02 CST" name="setup" finished-at="2022-11-11T10:42:19 CST" duration-ms="17751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyopenitem()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-11T10:42:19 CST" name="verifyopenitem" finished-at="2022-11-11T10:42:30 CST" duration-ms="10425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyopenitem -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-11T10:42:30 CST" name="close" finished-at="2022-11-11T10:42:30 CST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Amazon.Tests.SearchResultPageTest@7c7b252e]" started-at="2022-11-11T10:43:02 CST" name="afterSuite" finished-at="2022-11-11T10:43:03 CST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.Amazon.Tests.SearchResultPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
